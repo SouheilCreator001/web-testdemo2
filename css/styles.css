@@ -1,0 +1,65 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Card Style */
+.card {
+    background: url('../img/open-jerusalem-photo.jpg') no-repeat center center/cover;
+    width: 90%;
+    max-width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Top Menu Style */
+.top-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon-button {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.icon-button i {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.icon-button:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.icon-button:focus {
+    outline: none;
+}
+
+.content {
+    /* Add any additional styles for your content here */
+    padding: 500px;
+    color: white;
+    
+}

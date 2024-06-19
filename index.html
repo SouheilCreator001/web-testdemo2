@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Jerusalem</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="top-menu">
+            <audio id="sound" src="audio/open-jerusalem-simple.mp3"></audio> 
+            <button class="icon-button" id="sound-btn" onclick="playSound()">
+                <i class="fas fa-volume-up"></i>
+            </button>
+            <button class="icon-button" id="pdf-btn" onclick="openPDF()" >
+                <i class="fas fa-file-pdf"></i>
+            </button>
+            <button class="icon-button" id="quiz-btn">
+                <i class="fas fa-question-circle"></i>
+            </button>
+        </div>
+        <div class="content">
+            <!-- Your content goes here -->
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script>
+        function playSound() {
+            var audio = document.getElementById('sound');
+            audio.play();
+        }
+        function openPDF() {
+            window.open('pdf/open-jerusalem-full.pdf', '_blank');
+        }
+    </script>
+</body>
+</html>
