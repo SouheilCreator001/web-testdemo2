@@ -17,7 +17,7 @@ body, html {
 /* Card Style */
 .card {
     background: url('../img/open-jerusalem-photo.jpg') no-repeat center center/cover;
-    width: 90%;
+    width: 80%;
     max-width: 600px;
     height: 350px;
     border-radius: 15px;
