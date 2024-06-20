@@ -18,8 +18,8 @@ body, html {
 .card {
     background: url('../img/open-jerusalem-photo.jpg') no-repeat center center/cover;
     width: 90%;
-    max-width: 700px;
-    height: 500px;
+    max-width: 600px;
+    height: 350px;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -59,7 +59,7 @@ body, html {
 
 .content {
     /* Add any additional styles for your content here */
-    padding: 500px;
+    padding: 250px;
     color: white;
     
 }
